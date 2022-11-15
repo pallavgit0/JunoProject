@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Assignment_Pallav-Assignment_PallavUITests/Pods-Assignment_Pallav-Assignment_PallavUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SDWebImageSVGCoder/SDWebImageSVGCoder.framework

@@ -1,12 +1,7 @@
-//
-//  AppDelegate.swift
-//  Assignment_Pallav
-//
-//  Created by Pallav  on 08/11/22.
-//
 
 import UIKit
 import CoreData
+import SDWebImageSVGCoder
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +10,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let SVGCoder = SDImageSVGCoder.shared
+        SDImageCodersManager.shared.addCoder(SVGCoder)
         return true
     }
 

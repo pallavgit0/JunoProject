@@ -1,0 +1,6 @@
+framework module Pods_Assignment_PallavTests {
+  umbrella header "Pods-Assignment_PallavTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

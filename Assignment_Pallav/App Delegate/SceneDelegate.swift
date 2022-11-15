@@ -1,9 +1,4 @@
-//
-//  SceneDelegate.swift
-//  Assignment_Pallav
-//
-//  Created by Pallav  on 08/11/22.
-//
+
 
 import UIKit
 

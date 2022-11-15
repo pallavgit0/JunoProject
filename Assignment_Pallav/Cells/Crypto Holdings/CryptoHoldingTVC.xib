@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CryptoHoldingTVC" rowHeight="102" id="KGk-i7-Jjw" customClass="CryptoHoldingTVC" customModule="Assignment_Pallav" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="102"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="391" height="102"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="91M-6b-rqD">
+                        <rect key="frame" x="20" y="0.0" width="351" height="102"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XXN-gV-PYY">
+                                <rect key="frame" x="10" y="21" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="8B2-KA-XVb"/>
+                                    <constraint firstAttribute="width" constant="60" id="ThO-Db-Mhy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c06-MK-Hyx">
+                                <rect key="frame" x="90" y="41" width="42" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0f-yy-xhU">
+                                <rect key="frame" x="165.33333333333334" y="34.333333333333329" width="82.666666666666657" height="33.333333333333329"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Deposit">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="systemIndigoColor"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" systemColor="systemIndigoColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xza-ig-OZU">
+                                <rect key="frame" x="258" y="34.333333333333329" width="83" height="33.333333333333329"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="e2a-Rl-4eV"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Buy">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="c06-MK-Hyx" firstAttribute="centerY" secondItem="XXN-gV-PYY" secondAttribute="centerY" id="22Z-5I-3lX"/>
+                            <constraint firstItem="XXN-gV-PYY" firstAttribute="top" secondItem="91M-6b-rqD" secondAttribute="top" constant="21" id="Fp4-BT-DOa"/>
+                            <constraint firstItem="Xza-ig-OZU" firstAttribute="leading" secondItem="n0f-yy-xhU" secondAttribute="trailing" constant="10" id="Ku4-Mi-pLR"/>
+                            <constraint firstItem="Xza-ig-OZU" firstAttribute="centerY" secondItem="n0f-yy-xhU" secondAttribute="centerY" id="MS7-Ug-hdE"/>
+                            <constraint firstItem="n0f-yy-xhU" firstAttribute="centerY" secondItem="XXN-gV-PYY" secondAttribute="centerY" id="PST-af-Cba"/>
+                            <constraint firstItem="c06-MK-Hyx" firstAttribute="leading" secondItem="XXN-gV-PYY" secondAttribute="trailing" constant="20" id="UuO-fJ-gGm"/>
+                            <constraint firstItem="XXN-gV-PYY" firstAttribute="leading" secondItem="91M-6b-rqD" secondAttribute="leading" constant="10" id="VMN-bj-lL3"/>
+                            <constraint firstAttribute="bottom" secondItem="XXN-gV-PYY" secondAttribute="bottom" constant="21" id="ZO3-aD-sSX"/>
+                            <constraint firstAttribute="trailing" secondItem="Xza-ig-OZU" secondAttribute="trailing" constant="10" id="iJg-W1-KGe"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="91M-6b-rqD" secondAttribute="trailing" constant="20" id="7KL-ma-AHk"/>
+                    <constraint firstItem="91M-6b-rqD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Awm-JV-stt"/>
+                    <constraint firstItem="91M-6b-rqD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="EQp-tq-nxN"/>
+                    <constraint firstAttribute="bottom" secondItem="91M-6b-rqD" secondAttribute="bottom" id="KVF-Mh-Tje"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgVw" destination="XXN-gV-PYY" id="kDa-hp-X2L"/>
+                <outlet property="lblTitle" destination="c06-MK-Hyx" id="1ac-TO-Du8"/>
+            </connections>
+            <point key="canvasLocation" x="154.61538461538461" y="41.232227488151658"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

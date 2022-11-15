@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F082817A05474661DFA553B /* Pods_Assignment_Pallav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21EC1BC5C5CB55CB1975E0 /* Pods_Assignment_Pallav.framework */; };
+		78A95FF2C49F22C5C31AD0B6 /* Pods_Assignment_Pallav_Assignment_PallavUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9D1AC7D26F78A22F887DDC /* Pods_Assignment_Pallav_Assignment_PallavUITests.framework */; };
 		8C47E894291A95630069D887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E893291A95630069D887 /* AppDelegate.swift */; };
 		8C47E896291A95630069D887 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E895291A95630069D887 /* SceneDelegate.swift */; };
 		8C47E898291A95630069D887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E897291A95630069D887 /* ViewController.swift */; };
@@ -17,6 +19,25 @@
 		8C47E8AE291A95650069D887 /* Assignment_PallavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8AD291A95650069D887 /* Assignment_PallavTests.swift */; };
 		8C47E8B8291A95650069D887 /* Assignment_PallavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8B7291A95650069D887 /* Assignment_PallavUITests.swift */; };
 		8C47E8BA291A95650069D887 /* Assignment_PallavUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8B9291A95650069D887 /* Assignment_PallavUITestsLaunchTests.swift */; };
+		8C47E8C8291A96180069D887 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8C7291A96180069D887 /* UIView.swift */; };
+		8C47E8D1291B65830069D887 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8D0291B65830069D887 /* ListVC.swift */; };
+		8C47E8D3291B65FC0069D887 /* ListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8D2291B65FC0069D887 /* ListVM.swift */; };
+		8C47E8D8291B683D0069D887 /* CryptoZeroTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8D6291B683D0069D887 /* CryptoZeroTVC.swift */; };
+		8C47E8D9291B683D0069D887 /* CryptoZeroTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C47E8D7291B683D0069D887 /* CryptoZeroTVC.xib */; };
+		8C47E8DD291B6A090069D887 /* CustomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8DB291B6A090069D887 /* CustomTVC.swift */; };
+		8C47E8DE291B6A090069D887 /* CustomTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C47E8DC291B6A090069D887 /* CustomTVC.xib */; };
+		8C47E8E2291C04950069D887 /* CryptoHoldingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8E0291C04950069D887 /* CryptoHoldingTVC.swift */; };
+		8C47E8E3291C04950069D887 /* CryptoHoldingTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C47E8E1291C04950069D887 /* CryptoHoldingTVC.xib */; };
+		8C47E8E7291C05B60069D887 /* CurrentPriceTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8E5291C05B60069D887 /* CurrentPriceTVC.swift */; };
+		8C47E8E8291C05B60069D887 /* CurrentPriceTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C47E8E6291C05B60069D887 /* CurrentPriceTVC.xib */; };
+		8C47E8EC291C05F30069D887 /* CurrentPricesCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8EA291C05F30069D887 /* CurrentPricesCVC.swift */; };
+		8C47E8ED291C05F30069D887 /* CurrentPricesCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C47E8EB291C05F30069D887 /* CurrentPricesCVC.xib */; };
+		8C47E8EF291C1C600069D887 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8EE291C1C600069D887 /* AppConstants.swift */; };
+		8C47E8F3291C208E0069D887 /* HeaderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8F1291C208E0069D887 /* HeaderTVC.swift */; };
+		8C47E8F4291C208E0069D887 /* HeaderTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C47E8F2291C208E0069D887 /* HeaderTVC.xib */; };
+		8C47E8F7291CD9BD0069D887 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8F6291CD9BD0069D887 /* DataModel.swift */; };
+		8C47E8FD291F5F1C0069D887 /* ImageConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47E8FC291F5F1C0069D887 /* ImageConverter.swift */; };
+		E49485FFC019EDCDCFA1D065 /* Pods_Assignment_PallavTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26F26B3C09A3FA58D65BC35 /* Pods_Assignment_PallavTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00CADF17D8611072ACC83659 /* Pods-Assignment_Pallav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment_Pallav.release.xcconfig"; path = "Target Support Files/Pods-Assignment_Pallav/Pods-Assignment_Pallav.release.xcconfig"; sourceTree = "<group>"; };
+		0472ABE398896B63506E770A /* Pods-Assignment_Pallav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment_Pallav.debug.xcconfig"; path = "Target Support Files/Pods-Assignment_Pallav/Pods-Assignment_Pallav.debug.xcconfig"; sourceTree = "<group>"; };
+		175E8367F7CE85D783ACE40F /* Pods-Assignment_PallavTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment_PallavTests.release.xcconfig"; path = "Target Support Files/Pods-Assignment_PallavTests/Pods-Assignment_PallavTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A9D1AC7D26F78A22F887DDC /* Pods_Assignment_Pallav_Assignment_PallavUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment_Pallav_Assignment_PallavUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C47E890291A95630069D887 /* Assignment_Pallav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment_Pallav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C47E893291A95630069D887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C47E895291A95630069D887 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +76,29 @@
 		8C47E8B3291A95650069D887 /* Assignment_PallavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment_PallavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C47E8B7291A95650069D887 /* Assignment_PallavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_PallavUITests.swift; sourceTree = "<group>"; };
 		8C47E8B9291A95650069D887 /* Assignment_PallavUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_PallavUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C47E8C7291A96180069D887 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		8C47E8D0291B65830069D887 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		8C47E8D2291B65FC0069D887 /* ListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVM.swift; sourceTree = "<group>"; };
+		8C47E8D6291B683D0069D887 /* CryptoZeroTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoZeroTVC.swift; sourceTree = "<group>"; };
+		8C47E8D7291B683D0069D887 /* CryptoZeroTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CryptoZeroTVC.xib; sourceTree = "<group>"; };
+		8C47E8DB291B6A090069D887 /* CustomTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTVC.swift; sourceTree = "<group>"; };
+		8C47E8DC291B6A090069D887 /* CustomTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTVC.xib; sourceTree = "<group>"; };
+		8C47E8E0291C04950069D887 /* CryptoHoldingTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoHoldingTVC.swift; sourceTree = "<group>"; };
+		8C47E8E1291C04950069D887 /* CryptoHoldingTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CryptoHoldingTVC.xib; sourceTree = "<group>"; };
+		8C47E8E5291C05B60069D887 /* CurrentPriceTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPriceTVC.swift; sourceTree = "<group>"; };
+		8C47E8E6291C05B60069D887 /* CurrentPriceTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrentPriceTVC.xib; sourceTree = "<group>"; };
+		8C47E8EA291C05F30069D887 /* CurrentPricesCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPricesCVC.swift; sourceTree = "<group>"; };
+		8C47E8EB291C05F30069D887 /* CurrentPricesCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrentPricesCVC.xib; sourceTree = "<group>"; };
+		8C47E8EE291C1C600069D887 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		8C47E8F1291C208E0069D887 /* HeaderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTVC.swift; sourceTree = "<group>"; };
+		8C47E8F2291C208E0069D887 /* HeaderTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTVC.xib; sourceTree = "<group>"; };
+		8C47E8F6291CD9BD0069D887 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		8C47E8FC291F5F1C0069D887 /* ImageConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConverter.swift; sourceTree = "<group>"; };
+		E06D7DDA32CE2B3D66E83AAA /* Pods-Assignment_Pallav-Assignment_PallavUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment_Pallav-Assignment_PallavUITests.release.xcconfig"; path = "Target Support Files/Pods-Assignment_Pallav-Assignment_PallavUITests/Pods-Assignment_Pallav-Assignment_PallavUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA06D6B870C1F368DAAE7211 /* Pods-Assignment_PallavTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment_PallavTests.debug.xcconfig"; path = "Target Support Files/Pods-Assignment_PallavTests/Pods-Assignment_PallavTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F26F26B3C09A3FA58D65BC35 /* Pods_Assignment_PallavTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment_PallavTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D2648DB8CEF330263F6005 /* Pods-Assignment_Pallav-Assignment_PallavUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment_Pallav-Assignment_PallavUITests.debug.xcconfig"; path = "Target Support Files/Pods-Assignment_Pallav-Assignment_PallavUITests/Pods-Assignment_Pallav-Assignment_PallavUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA21EC1BC5C5CB55CB1975E0 /* Pods_Assignment_Pallav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment_Pallav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F082817A05474661DFA553B /* Pods_Assignment_Pallav.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49485FFC019EDCDCFA1D065 /* Pods_Assignment_PallavTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +122,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A95FF2C49F22C5C31AD0B6 /* Pods_Assignment_Pallav_Assignment_PallavUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E04319036067A9CDBF57F80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0472ABE398896B63506E770A /* Pods-Assignment_Pallav.debug.xcconfig */,
+				00CADF17D8611072ACC83659 /* Pods-Assignment_Pallav.release.xcconfig */,
+				F5D2648DB8CEF330263F6005 /* Pods-Assignment_Pallav-Assignment_PallavUITests.debug.xcconfig */,
+				E06D7DDA32CE2B3D66E83AAA /* Pods-Assignment_Pallav-Assignment_PallavUITests.release.xcconfig */,
+				EA06D6B870C1F368DAAE7211 /* Pods-Assignment_PallavTests.debug.xcconfig */,
+				175E8367F7CE85D783ACE40F /* Pods-Assignment_PallavTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C2D26D829216ACD007079F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C47E8D0291B65830069D887 /* ListVC.swift */,
+				8C47E897291A95630069D887 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8C2D26D929216ADD007079F6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8C47E8EE291C1C600069D887 /* AppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8C2D26DA29216AF7007079F6 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8C47E893291A95630069D887 /* AppDelegate.swift */,
+				8C47E895291A95630069D887 /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
 		8C47E887291A95630069D887 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +175,8 @@
 				8C47E8AC291A95650069D887 /* Assignment_PallavTests */,
 				8C47E8B6291A95650069D887 /* Assignment_PallavUITests */,
 				8C47E891291A95630069D887 /* Products */,
+				2E04319036067A9CDBF57F80 /* Pods */,
+				F00ACFAB3AA8B3F88E575B92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +193,14 @@
 		8C47E892291A95630069D887 /* Assignment_Pallav */ = {
 			isa = PBXGroup;
 			children = (
-				8C47E893291A95630069D887 /* AppDelegate.swift */,
-				8C47E895291A95630069D887 /* SceneDelegate.swift */,
-				8C47E897291A95630069D887 /* ViewController.swift */,
+				8C2D26DA29216AF7007079F6 /* App Delegate */,
+				8C2D26D829216ACD007079F6 /* Controllers */,
+				8C47E8F5291CD99C0069D887 /* Model */,
+				8C47E8F8291F52E00069D887 /* View Models */,
+				8C47E8D4291B67CF0069D887 /* Cells */,
+				8C2D26D929216ADD007079F6 /* Constants */,
+				8C47E8FB291F5F0C0069D887 /* Core Additions */,
+				8C47E8C6291A960A0069D887 /* Extensions */,
 				8C47E899291A95630069D887 /* Main.storyboard */,
 				8C47E89F291A95650069D887 /* Assets.xcassets */,
 				8C47E8A1291A95650069D887 /* LaunchScreen.storyboard */,
@@ -130,6 +227,115 @@
 			path = Assignment_PallavUITests;
 			sourceTree = "<group>";
 		};
+		8C47E8C6291A960A0069D887 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C47E8C7291A96180069D887 /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8C47E8D4291B67CF0069D887 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8C47E8F0291C205F0069D887 /* Header Cell */,
+				8C47E8E9291C05D50069D887 /* Current Price CVC */,
+				8C47E8E4291C05A20069D887 /* Current Prices */,
+				8C47E8DF291BCAAF0069D887 /* Crypto Holdings */,
+				8C47E8DA291B69DD0069D887 /* Custom Cell */,
+				8C47E8D5291B67D50069D887 /* Crypto Detail Zero State */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8C47E8D5291B67D50069D887 /* Crypto Detail Zero State */ = {
+			isa = PBXGroup;
+			children = (
+				8C47E8D6291B683D0069D887 /* CryptoZeroTVC.swift */,
+				8C47E8D7291B683D0069D887 /* CryptoZeroTVC.xib */,
+			);
+			path = "Crypto Detail Zero State";
+			sourceTree = "<group>";
+		};
+		8C47E8DA291B69DD0069D887 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8C47E8DB291B6A090069D887 /* CustomTVC.swift */,
+				8C47E8DC291B6A090069D887 /* CustomTVC.xib */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		8C47E8DF291BCAAF0069D887 /* Crypto Holdings */ = {
+			isa = PBXGroup;
+			children = (
+				8C47E8E0291C04950069D887 /* CryptoHoldingTVC.swift */,
+				8C47E8E1291C04950069D887 /* CryptoHoldingTVC.xib */,
+			);
+			path = "Crypto Holdings";
+			sourceTree = "<group>";
+		};
+		8C47E8E4291C05A20069D887 /* Current Prices */ = {
+			isa = PBXGroup;
+			children = (
+				8C47E8E5291C05B60069D887 /* CurrentPriceTVC.swift */,
+				8C47E8E6291C05B60069D887 /* CurrentPriceTVC.xib */,
+			);
+			path = "Current Prices";
+			sourceTree = "<group>";
+		};
+		8C47E8E9291C05D50069D887 /* Current Price CVC */ = {
+			isa = PBXGroup;
+			children = (
+				8C47E8EA291C05F30069D887 /* CurrentPricesCVC.swift */,
+				8C47E8EB291C05F30069D887 /* CurrentPricesCVC.xib */,
+			);
+			path = "Current Price CVC";
+			sourceTree = "<group>";
+		};
+		8C47E8F0291C205F0069D887 /* Header Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8C47E8F1291C208E0069D887 /* HeaderTVC.swift */,
+				8C47E8F2291C208E0069D887 /* HeaderTVC.xib */,
+			);
+			path = "Header Cell";
+			sourceTree = "<group>";
+		};
+		8C47E8F5291CD99C0069D887 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C47E8F6291CD9BD0069D887 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C47E8F8291F52E00069D887 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C47E8D2291B65FC0069D887 /* ListVM.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		8C47E8FB291F5F0C0069D887 /* Core Additions */ = {
+			isa = PBXGroup;
+			children = (
+				8C47E8FC291F5F1C0069D887 /* ImageConverter.swift */,
+			);
+			path = "Core Additions";
+			sourceTree = "<group>";
+		};
+		F00ACFAB3AA8B3F88E575B92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA21EC1BC5C5CB55CB1975E0 /* Pods_Assignment_Pallav.framework */,
+				8A9D1AC7D26F78A22F887DDC /* Pods_Assignment_Pallav_Assignment_PallavUITests.framework */,
+				F26F26B3C09A3FA58D65BC35 /* Pods_Assignment_PallavTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C47E8BD291A95650069D887 /* Build configuration list for PBXNativeTarget "Assignment_Pallav" */;
 			buildPhases = (
+				60AFAB0EA43F95FB3D13A6AC /* [CP] Check Pods Manifest.lock */,
 				8C47E88C291A95630069D887 /* Sources */,
 				8C47E88D291A95630069D887 /* Frameworks */,
 				8C47E88E291A95630069D887 /* Resources */,
+				72973AEBF385036A9525BEAE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +362,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C47E8C0291A95650069D887 /* Build configuration list for PBXNativeTarget "Assignment_PallavTests" */;
 			buildPhases = (
+				716802FF8BA51FD776E70536 /* [CP] Check Pods Manifest.lock */,
 				8C47E8A5291A95650069D887 /* Sources */,
 				8C47E8A6291A95650069D887 /* Frameworks */,
 				8C47E8A7291A95650069D887 /* Resources */,
@@ -172,9 +381,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C47E8C3291A95650069D887 /* Build configuration list for PBXNativeTarget "Assignment_PallavUITests" */;
 			buildPhases = (
+				A89584AAEE8BAE3D6A6EDFDA /* [CP] Check Pods Manifest.lock */,
 				8C47E8AF291A95650069D887 /* Sources */,
 				8C47E8B0291A95650069D887 /* Frameworks */,
 				8C47E8B1291A95650069D887 /* Resources */,
+				396CA66BACB82F3AB1085D3A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +445,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C47E8D9291B683D0069D887 /* CryptoZeroTVC.xib in Resources */,
+				8C47E8DE291B6A090069D887 /* CustomTVC.xib in Resources */,
+				8C47E8E3291C04950069D887 /* CryptoHoldingTVC.xib in Resources */,
+				8C47E8ED291C05F30069D887 /* CurrentPricesCVC.xib in Resources */,
 				8C47E8A3291A95650069D887 /* LaunchScreen.storyboard in Resources */,
+				8C47E8F4291C208E0069D887 /* HeaderTVC.xib in Resources */,
+				8C47E8E8291C05B60069D887 /* CurrentPriceTVC.xib in Resources */,
 				8C47E8A0291A95650069D887 /* Assets.xcassets in Resources */,
 				8C47E89B291A95630069D887 /* Main.storyboard in Resources */,
 			);
@@ -256,13 +473,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		396CA66BACB82F3AB1085D3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Assignment_Pallav-Assignment_PallavUITests/Pods-Assignment_Pallav-Assignment_PallavUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Assignment_Pallav-Assignment_PallavUITests/Pods-Assignment_Pallav-Assignment_PallavUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Assignment_Pallav-Assignment_PallavUITests/Pods-Assignment_Pallav-Assignment_PallavUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60AFAB0EA43F95FB3D13A6AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Assignment_Pallav-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		716802FF8BA51FD776E70536 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Assignment_PallavTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72973AEBF385036A9525BEAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Assignment_Pallav/Pods-Assignment_Pallav-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Assignment_Pallav/Pods-Assignment_Pallav-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Assignment_Pallav/Pods-Assignment_Pallav-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A89584AAEE8BAE3D6A6EDFDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Assignment_Pallav-Assignment_PallavUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C47E88C291A95630069D887 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C47E8FD291F5F1C0069D887 /* ImageConverter.swift in Sources */,
+				8C47E8D1291B65830069D887 /* ListVC.swift in Sources */,
+				8C47E8D3291B65FC0069D887 /* ListVM.swift in Sources */,
+				8C47E8F3291C208E0069D887 /* HeaderTVC.swift in Sources */,
+				8C47E8E2291C04950069D887 /* CryptoHoldingTVC.swift in Sources */,
+				8C47E8EC291C05F30069D887 /* CurrentPricesCVC.swift in Sources */,
+				8C47E8F7291CD9BD0069D887 /* DataModel.swift in Sources */,
+				8C47E8DD291B6A090069D887 /* CustomTVC.swift in Sources */,
+				8C47E8C8291A96180069D887 /* UIView.swift in Sources */,
+				8C47E8E7291C05B60069D887 /* CurrentPriceTVC.swift in Sources */,
 				8C47E898291A95630069D887 /* ViewController.swift in Sources */,
+				8C47E8D8291B683D0069D887 /* CryptoZeroTVC.swift in Sources */,
 				8C47E894291A95630069D887 /* AppDelegate.swift in Sources */,
+				8C47E8EF291C1C600069D887 /* AppConstants.swift in Sources */,
 				8C47E89E291A95630069D887 /* Assignment_Pallav.xcdatamodeld in Sources */,
 				8C47E896291A95630069D887 /* SceneDelegate.swift in Sources */,
 			);
@@ -436,6 +768,7 @@
 		};
 		8C47E8BE291A95650069D887 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0472ABE398896B63506E770A /* Pods-Assignment_Pallav.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -463,6 +796,7 @@
 		};
 		8C47E8BF291A95650069D887 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00CADF17D8611072ACC83659 /* Pods-Assignment_Pallav.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +824,7 @@
 		};
 		8C47E8C1291A95650069D887 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA06D6B870C1F368DAAE7211 /* Pods-Assignment_PallavTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +844,7 @@
 		};
 		8C47E8C2291A95650069D887 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175E8367F7CE85D783ACE40F /* Pods-Assignment_PallavTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +864,7 @@
 		};
 		8C47E8C4291A95650069D887 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D2648DB8CEF330263F6005 /* Pods-Assignment_Pallav-Assignment_PallavUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +882,7 @@
 		};
 		8C47E8C5291A95650069D887 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06D7DDA32CE2B3D66E83AAA /* Pods-Assignment_Pallav-Assignment_PallavUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
